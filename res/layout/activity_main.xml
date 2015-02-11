@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.scrapbookingapp.MainActivity" >
+
+    <ImageView
+        android:id="@+id/CinqueTerre"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/cinque_terre"
+        android:src="@drawable/cinqueterre" />
+
+    <ImageView
+        android:id="@+id/EiffelTower"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/eiffel_tower"
+        android:src="@drawable/eiffeltower" />
+
+    <ImageView
+        android:id="@+id/LondonBridge"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/london_bridge"
+        android:src="@drawable/londonbridge" />
+
+    <TextView
+        android:id="@+id/LondonBridgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LondonBridge"
+        android:layout_alignTop="@+id/LondonBridge"
+        android:text="@string/London_Bridge_Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/EiffelTowerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LondonBridge"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/Eiffel_Tower_Title"
+        android:text="@string/Eiffel_Tower_Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/ColisseumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LondonBridge"
+        android:contentDescription="@string/Colisseum_Title"
+        android:text="@string/Colisseum_Title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CinqueTerreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CinqueTerre"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/Cinque_Terre_Title"
+        android:text="@string/Cinque_Terre_Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:id="@+id/Colisseum"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignRight="@+id/ColisseumTitle"
+        android:layout_alignTop="@+id/EiffelTower"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/colisseum"
+        android:cropToPadding="false"
+        android:height="200sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/colisseum"
+        android:width="170sp" />
+
+</RelativeLayout>

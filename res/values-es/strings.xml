@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="london_bridge">Puente de London</string>
+    <string name="eiffel_tower">Torre Eiffel</string>
+    <string name="colisseum">Colisseum</string>
+    <string name="cinque_terre">Cinque Terre</string>
+    <string name="London_Bridge_Title">Puente de London</string>
+    <string name="Eiffel_Tower_Title">Torre Eiffel</string>
+    <string name="Colisseum_Title">Colisseum</string>
+    <string name="Cinque_Terre_Title">Cinque Terre</string>
+
+</resources>

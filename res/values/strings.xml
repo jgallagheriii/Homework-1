@@ -1,0 +1,16 @@
+
+<resources>
+
+    <string name="app_name">Scrapbooking App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="london_bridge">London Bridge</string>
+    <string name="eiffel_tower">Eiffel Tower</string>
+    <string name="colisseum">Colisseum</string>
+    <string name="cinque_terre">Cinque Terre</string>
+    <string name="London_Bridge_Title">London Bridge</string>
+    <string name="Eiffel_Tower_Title">Eiffel Tower</string>
+    <string name="Colisseum_Title">Colisseum</string>
+    <string name="Cinque_Terre_Title">Cinque Terre</string>
+
+</resources>
